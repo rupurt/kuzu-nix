@@ -1,0 +1,5 @@
+# nix
+/result
+
+# kuzu repl
+/history.txt
