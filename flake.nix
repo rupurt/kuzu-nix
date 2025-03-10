@@ -23,13 +23,13 @@
       packages = rec {
         kuzu = pkgs.stdenv.mkDerivation {
           name = "kuzu";
-          version = "v0.8.0";
+          version = "v0.8.2";
 
           src = pkgs.fetchFromGitHub {
             owner = "kuzudb";
             repo = "kuzu";
-            rev = "v0.8.0";
-            sha256 = "sha256-iskxQzXb7uds4xpboh7hlUVWjkYXi6ACVJaMEXjQQbI=";
+            rev = "v0.8.2";
+            sha256 = "sha256-xEhjDAzu742niskkGG3PAWlbhZ476rUmVuwA9I7SDj8=";
           };
 
           nativeBuildInputs = with pkgs; [
