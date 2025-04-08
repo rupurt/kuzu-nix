@@ -23,12 +23,12 @@
       packages = rec {
         kuzu = pkgs.stdenv.mkDerivation {
           name = "kuzu";
-          version = "v0.8.2";
+          version = "v0.9.0";
 
           src = pkgs.fetchFromGitHub {
             owner = "kuzudb";
             repo = "kuzu";
-            rev = "v0.8.2";
+            rev = "v0.9.0";
             sha256 = "sha256-xEhjDAzu742niskkGG3PAWlbhZ476rUmVuwA9I7SDj8=";
           };
 
